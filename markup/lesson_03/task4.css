@@ -1,0 +1,12 @@
+a[target]:after {
+	content: "\21F1";
+	display: inline-block; 
+	padding-right: 8px;
+	-moz-transform: scaleX(-1);
+}
+a[href*="ya"] {
+	color: #f70;
+}
+a[href*="google"] {
+	color: #666;
+}

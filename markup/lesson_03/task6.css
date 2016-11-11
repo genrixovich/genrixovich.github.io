@@ -1,0 +1,57 @@
+span {
+	display: none;
+}
+label[for *= "red"] {
+	color: red;
+	text-decoration: underline;
+	opacity: .3;
+	transition: .5s;
+}
+label[for *= "green"] {
+	color: green;
+	text-decoration: underline;	
+	opacity: .3;
+	transition: .5s;
+}
+label[for *= "blue"] {
+	color: blue;
+	text-decoration: underline;
+	opacity: .3;
+	transition: .5s;
+}
+#red:checked ~ label[for *= "red"] {
+	color: red;
+	text-decoration: underline;
+	opacity: 1;
+}
+#green:checked ~ label[for *= "green"] {
+	color: green;
+	text-decoration: underline;	
+	opacity: 1;
+}
+#blue:checked ~ label[for *= "blue"] {
+	color: blue;
+	text-decoration: underline;
+	opacity: 1;
+}
+#red:checked ~ .red {
+	color: white;
+	background-color: red;
+	border-radius: 8px;
+	padding: 4px;	
+	display:inline;
+}
+#green:checked ~ .green {
+	color: white;
+	background-color: green;
+	border-radius: 8px;
+	padding: 4px;	
+	display:inline;
+}
+#blue:checked ~ .blue {
+	color: white;
+	background-color: blue;
+	border-radius: 8px;
+	padding: 4px;	
+	display:inline;
+}
