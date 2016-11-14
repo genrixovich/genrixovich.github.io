@@ -1,0 +1,33 @@
+.pager {
+	height: 24px;
+	text-align: center;
+}
+.pager a {
+	display: inline-block;
+	font-family: Economica;
+	font-size: 12px;
+	font-style: bold;
+	color: #A64DFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+}
+.pageNumber {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #EEE;
+	border-radius: 5px;	
+}
+.buttonPrevFirst:before {
+	content: "\00AB";
+	font-size: 16px;
+}
+.buttonNextLast:after {
+	content: "\00BB";
+	font-size: 16px;
+}
+.pageNumber:hover {
+	background-color: #A64DFF;
+	border-color: #7C12BC;
+	color: white;
+}

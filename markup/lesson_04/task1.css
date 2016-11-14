@@ -1,0 +1,27 @@
+.menu {
+	background-color: #A64DFF;
+	width: 100%;
+}
+.menu menu {
+	width: 900px;
+	padding: 0;
+	margin: 0 Auto;
+	list-style-type: none;
+}
+.menu li {
+	display: inline;
+}
+.menu a {
+	display: inline-block;
+	padding: 0 16px;
+	font-family: Economica;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	line-height: 38px;
+}
+.menu a:hover {
+	background-color: #EEE;
+	color: #A0A0A0;
+}
