@@ -1,0 +1,61 @@
+body {
+	margin: 8px 0;
+}
+nav {
+	background-color: #1AA4FF;
+	width: 100%;
+}
+.mainMenu {
+	padding: 0;
+	width: 900px;
+	height: 38px;
+	margin: 0 auto;
+	font: bold 22px/38px Economica;
+	background-color: #1AA4FF;
+}
+.mainMenu ul, li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0;
+}
+.mainMenu > li:last-child {
+	float: right;
+}
+.mainMenu a {
+	text-decoration: none;
+	padding: 0 16px;
+	color: #FFF;
+}
+.mainMenu ul {
+	width: 100%;
+	height: 38px;
+	font: bold 16px/38px Economica;
+	background: #EEE;
+	position: absolute;
+	top: 46px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.mainMenu div {
+	width: 900px;
+	height: 38px;
+	margin: 0 auto;
+}
+.mainMenu ul a {
+	padding: 0 10px;
+	color: #A0A0A0;	
+}
+.mainMenu li:hover {
+	background: #EEE;
+}
+.mainMenu li:hover a {
+	color: #A0A0A0;
+}
+.mainMenu li:hover ul {
+	display: block;
+}
+.mainMenu ul li:hover a {
+	text-decoration: underline;
+}

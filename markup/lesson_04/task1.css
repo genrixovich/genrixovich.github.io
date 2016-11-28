@@ -21,6 +21,9 @@
 	text-decoration: none;
 	line-height: 38px;
 }
+#menuMore {
+	float: right;
+}
 .menu a:hover {
 	background-color: #EEE;
 	color: #A0A0A0;

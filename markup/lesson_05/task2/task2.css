@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Impact;
+	src: url("impact.ttf");
+}
+.bestOffer {
+	width: 296px;
+	padding: 0 4px 4px 4px;
+	background-color: #EE8129;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px #CBE2EF;
+	font-family: Impact;
+}
+.bestOffer div:first-child {
+	padding: 25px 0 25px 0;
+	font-size: 22px;
+	text-align: center;
+	color: #FFF;
+}
+.bestOffer .content {
+	background-color: #FFF;
+	color: #35495A;
+	padding-bottom: 30px;
+	position: relative;
+}
+.bestOffer .content div:first-child {
+	/*padding: 25px 0 25px 0;*/
+	color: #35495A;
+}
+.bestOffer .content .cost {
+	text-align: center;
+}
+.bestOffer .content .cost div:first-child {
+	display: inline-block;
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	top: -40px;
+}
+.bestOffer .content .cost div:nth-child(2) {
+	display: inline-block;
+	padding: 0;
+	font-size: 60px;
+	position: relative;
+}
+.bestOffer .content .cost div:last-child {
+	display: inline-block;
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	top: 10px;
+}
+.bestOffer .content .list {
+	padding: 20px 0;
+	margin: 0;
+	color: #888C94;
+	font-size: 16px;
+	list-style-type: none;
+	/*list-style-image: url("check.png");*/
+}
+.bestOffer .content .list li:nth-child(odd) {
+	padding: 10px 0 10px 45px;
+	background-color: #EDF5FD;
+	margin: 1px 14px;
+}
+.bestOffer .content .list li:nth-child(even) {
+	padding: 10px 0 10px 45px;
+	background-color: #F5F5F6;
+	margin: 0 14px;
+}
+.bestOffer .content .list li:before {
+	content: url("check.png");
+	padding-right: 15px;
+}
+.bestOffer .content form {
+	text-align: center;
+}
+.bestOffer .content button {
+	width: 252px;
+	height: 38px;
+	color: #FFF;
+	background-color: #EE8129;
+	border-radius: 5px;
+	border-top: none;
+	border-right: none;
+	border-bottom: 3px solid #B3560B;
+	border-left: none;
+	font-family: Impact;
+}
+button::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: none;
+}
