@@ -8,7 +8,8 @@
 	background-color: #EE8129;
 	border-radius: 5px;
 	box-shadow: 0 0 5px 2px #CBE2EF;
-	font-family: Impact;
+	font-family: Economica;
+	font-weight: bold;
 }
 .bestOffer div:first-child {
 	padding: 25px 0 25px 0;
@@ -50,7 +51,7 @@
 	top: 10px;
 }
 .bestOffer .content .list {
-	padding: 20px 0;
+	padding: 28px 14px;
 	margin: 0;
 	color: #888C94;
 	font-size: 16px;
@@ -58,14 +59,14 @@
 	/*list-style-image: url("check.png");*/
 }
 .bestOffer .content .list li:nth-child(odd) {
-	padding: 10px 0 10px 45px;
+	padding: 10px;
 	background-color: #EDF5FD;
-	margin: 1px 14px;
+	margin: 1px 0;
 }
 .bestOffer .content .list li:nth-child(even) {
-	padding: 10px 0 10px 45px;
+	padding: 10px;
 	background-color: #F5F5F6;
-	margin: 0 14px;
+	margin: 0;
 }
 .bestOffer .content .list li:before {
 	content: url("check.png");

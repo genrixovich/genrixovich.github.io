@@ -1,0 +1,130 @@
+@font-face {
+	font-family: Impact;
+	src: url("Economica.ttf");
+}
+body {
+	text-align: center;
+	font-family: Economica, arial;
+}
+.All_Offers {
+	position: relative;
+}
+.All_Offers h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #35495A;
+	padding: 10px 0 40px;
+}
+.offer {
+	width: 296px;
+	border: 1px solid #F1F2F3;
+	border-radius: 5px;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+.offer div:first-child {
+	padding: 25px 0 25px 0;
+	font-size: 22px;
+	text-align: center;
+	color: #FFF;
+}
+#StandartValue {
+	background-color: #37C2D3;
+}
+#BestValue {
+	background-color: #EC8136;
+}
+#UltimateValue {
+	background-color: #1CB79A;
+}
+.offer .content {
+	background-color: #FFF;
+	color: #35495A;
+	padding-bottom: 25px;
+}
+.offer .content div:first-child {
+	color: #35495A;
+}
+.offer .content .cost {
+	text-align: center;
+}
+.offer .content .cost span:first-child {
+	display: inline-block;
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	top: -40px;
+}
+.offer .content .cost span:nth-child(2) {
+	display: inline-block;
+	padding: 0;
+	font-size: 60px;
+	position: relative;
+}
+.offer .content .cost span:last-child {
+	display: inline-block;
+	padding: 0;
+	font-size: 18px;
+	position: relative;
+	top: 10px;
+}
+.offer .content .list {
+	padding: 25px 0;
+	margin: 0 13px;
+	color: #888C94;
+	font-size: 16px;
+	list-style-type: none;
+	text-align: justify;
+}
+.offer .content .list li:nth-child(odd) {
+	padding: 10px;
+	background-color: #EDF5FD;
+	margin: 1px 0;
+}
+.offer .content .list li:nth-child(even) {
+	padding: 10px;
+	background-color: #F5F5F6;
+	margin: 0;
+}
+.offer .content .list li:before {
+	content: url("check.png");
+	padding-right: 15px;
+}
+.offer .content form {
+	text-align: center;
+}
+.offer .content button {
+	width: 252px;
+	height: 38px;
+	color: #FFF;
+	background-color: #EE8129;
+	border-radius: 5px;
+	border-top: none;
+	border-right: none;
+	border-bottom: 3px solid #B3560B;
+	border-left: none;
+}
+button::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: none;
+}
+.offer:hover {
+	box-shadow: 0 0 5px 2px #CBE2EF;
+	transform: scale(1.05);
+	border: 1px solid #CBE2EF;
+	border-radius: 5px;
+}
+.offer:hover .content {
+	margin: 0 3px 3px;
+}
+#StandartValue:hover {
+	z-index: 2;
+}
+#BestValue:hover {
+	z-index: 2;
+}
+#UltimateValue:hover {
+	z-index: 2;
+}

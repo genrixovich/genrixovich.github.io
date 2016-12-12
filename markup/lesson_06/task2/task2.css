@@ -1,0 +1,59 @@
+.reviews {
+	background: url(background.png) repeat;
+	font-family: Economica, arial;
+	padding: 40px 40px 20px;
+	text-align: center;
+}
+.reviews h2 {
+	margin: 0 0 40px;
+	color: #3170A8;
+}
+.reviews h2 b {
+	color: #EE8129;
+	font-weight: normal;
+}
+.reviews .customer {
+	margin: 0 20px 20px;
+	min-height: 98px;
+	display: inline-block;
+}
+.reviews .customer img {
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+.reviews .customer .text {
+	width: 364px;
+	height: 98px;
+	background-color: #F7F7F7;
+	display: inline-block;
+	position: relative;
+}
+.reviews .customer .text::before {
+	content: "";
+	border: 13px solid transparent;
+	border-right: 18px solid #F7F7F7;
+	position: absolute;
+	top: 36px;
+	right: 364px;
+	bottom: 36px;
+	left: -40px;
+}
+.reviews .customer .text .profileInfo {
+	padding-bottom: 10px;
+	margin: 12px 12px 10px;
+	color: #3070A8;
+	border-bottom: 2px dotted #666666;
+	text-align: right;
+}
+.reviews .customer .text .profileInfo span:first-child {
+	float: left;
+}
+.reviews .customer .text .recall {
+	height: 36px;
+	margin: 11px 12px;
+	color: #666666;
+	text-align: left;
+	overflow: auto;
+	text-overflow: hidden;
+}
