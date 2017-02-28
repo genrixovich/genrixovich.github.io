@@ -1,0 +1,52 @@
+.sivtsev {
+	width: 600px;
+	margin: 0 auto;
+	text-shadow: 0 0 5px black;
+	color: rgba(0, 0, 0, 0)
+}
+.sivtsev p {
+	margin: 30px auto;
+	font-family: arial;
+	text-align-last: justify;	 
+}
+.sivtsev .sight01 {
+	font-size: 70mm;
+}
+.sivtsev .sight02 {
+	font-size: 35mm;
+}
+.sivtsev .sight03 {
+	font-size: 23.3mm;
+}
+.sivtsev .sight04 {
+	font-size: 17.5mm;
+}
+.sivtsev .sight05 {
+	font-size: 14mm;
+}
+.sivtsev .sight06 {
+	font-size: 11.7mm;
+}
+.sivtsev .sight07 {
+	font-size: 10mm;
+}
+.sivtsev .sight08 {
+	font-size: 8.8mm;
+}
+.sivtsev .sight09 {
+	font-size: 7.8mm;
+}
+.sivtsev .sight10 {
+	font-size: 7mm;
+}
+.sivtsev .sight15 {
+	font-size: 4.7mm;
+}
+.sivtsev .sight20 {
+	font-size: 3.5mm;
+}
+.uline {
+	width: 100%;
+	box-shadow: 0 -5px 4px rgba(255, 0, 0, 1);
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+}

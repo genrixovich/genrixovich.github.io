@@ -1,0 +1,68 @@
+.formSearch {
+	position: relative;
+	display: inline-block;
+	min-width: 300px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-right: 16px;
+	z-index: 2;
+}
+.containerSearch {
+	display: inline-block;
+	position: relative;
+	background: #FFCC66;
+	background: linear-gradient(to top, #EABA4C, #FECA53);
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.containerSearch .inputSearch {
+	display: table-cell;
+	width: 100%;
+	position: relative;
+}
+.containerSearch .inputSubmit {
+	display: table-cell;
+	padding-left: 4px;
+}
+.containerSearch .inputSearch input {
+	height: 30px;
+	width: 100%;
+	padding: 5px;
+	border: 0.5px solid #B3B3B3;
+	border-radius: 1px;
+	position: absolute;
+	top: 0;
+}
+.containerSearch .inputSubmit input {
+	height: 30px;
+	width: 90px;
+}
+.containerSearch .inputCheckbox {
+	padding-top: 5px;
+	height: 19px;
+}
+.containerSearch .inputCheckbox input {
+	margin: 0;
+	vertical-align: middle;
+}
+.containerSearch .inputCheckbox label {
+	line-height: 19px;
+	vertical-align: middle;
+}
+.containerArrow {
+	display: inline-block;
+	width: 22.625px;
+	transform: scaleX(0.5);
+	z-index: 1;
+	position: absolute;
+	top: 17px;
+	right: 18px;
+}
+.containerArrow .arrow {
+	height: 45.25px;
+	width: 45.25px;
+	background: #FFCC66;
+	background: linear-gradient(-45deg, #EABA4C, #FECA53);
+	transform: rotate(45deg);
+}

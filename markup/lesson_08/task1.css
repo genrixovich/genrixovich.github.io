@@ -1,0 +1,56 @@
+.formSearch {
+	margin: 0 20px 0 0;
+	position: relative;
+}
+.containerSearch {
+	display: inline-block;
+	position: relative;
+	background-color: #FFCC66;
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.containerSearch .inputSearch {
+	display: table-cell;
+	width: 100%;
+	position: relative;
+}
+.containerSearch .inputSubmit {
+	display: table-cell;
+	padding-left: 4px;
+}
+.containerSearch .inputSearch input {
+	height: 30px;
+	width: 100%;
+	padding: 5px;
+	border: 0.5px solid #B3B3B3;
+	border-radius: 1px;
+	position: absolute;
+	top: 0;
+}
+.containerSearch .inputSubmit input {
+	height: 30px;
+	width: 90px;
+}
+.containerSearch .inputCheckbox {
+	padding-top: 5px;
+	height: 19px;
+}
+.containerSearch .inputCheckbox input {
+	margin: 0;
+	vertical-align: middle;
+}
+.containerSearch .inputCheckbox label {
+	line-height: 19px;
+	vertical-align: middle;
+}
+.formSearch::after {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	content: "";
+	border-top: 32px solid transparent;
+	border-right: none;
+	border-bottom: 32px solid transparent;
+	border-left: 20px solid #FFCC66;
+}

@@ -1,0 +1,66 @@
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #3C464F;
+}
+header {
+	min-width: 500px;
+	margin: 50px 0 65px;
+}
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.container .imgContainer {
+	height: 260px;
+	width: 360px;
+	margin: 15px;
+	display: inline-block;
+	background-color: #3BADF4;
+	position: relative;
+}
+.container .imgContainer .loupe {
+	padding: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 109px;
+	left: 133px;
+	border: 1px solid #FAFAFA;
+	border-radius: 5px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.container .imgContainer .chain {
+	padding: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 109px;
+	left: 185px;
+	border: 1px solid #FAFAFA;
+	border-radius: 5px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.container .imgContainer .image {
+	height: 260px;
+	width: 360px;
+	transition: 0.5s;
+}
+.container .imgContainer:hover .image {
+	opacity: 0.12;
+	transition: 0.5s;
+}
+.container .imgContainer:hover .loupe {
+	transition: 0.5s;
+	opacity: 1;
+}
+.container .imgContainer:hover .chain {
+	transition: 0.5s;
+	opacity: 1;
+}
+.container .imgContainer .loupe:hover {
+	background-color: #1EA9FD;
+}
+.container .imgContainer .chain:hover {
+	background-color: #1EA9FD;
+}
