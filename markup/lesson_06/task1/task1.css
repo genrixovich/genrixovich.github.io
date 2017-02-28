@@ -32,12 +32,15 @@ body {
 }
 #StandartValue {
 	background-color: #37C2D3;
+	transition: .1s;
 }
 #BestValue {
 	background-color: #EC8136;
+	transition: .1s;
 }
 #UltimateValue {
 	background-color: #1CB79A;
+	transition: .1s;
 }
 .offer .content {
 	background-color: #FFF;
